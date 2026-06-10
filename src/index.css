@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GLOBAL BACKGROUND */
+body {
+  background: linear-gradient(
+    135deg,
+    #c7f0ff,
+    #dbeafe,
+    #e9d5ff
+  );
+
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-glass {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
+}
+
+.gradient-brand {
+  background: linear-gradient(
+    135deg,
+    #38bdf8,
+    #6366f1,
+    #d946ef
+  );
+}
